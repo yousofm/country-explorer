@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif, Arial;
+}
+body {
+    background-color: hsl(219, 42%, 11%);
+    color: white;
+}
+.headContainer {
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid gray;
+}
+nav a{
+    margin: 0 20px;
+    color: #c0c0c0;
+    font-weight: bold;
+    font-size: 0.9rem;
+    text-decoration: none;
+    text-shadow: 0px 0px 2px #c0c0c0;
+}
+.logo h2{
+    color: #11c7b8;
+    text-shadow: 0px 0px 4px hsl(175, 84%, 42%);
+    cursor: default;
+}
+main {
+    margin-top: 40px;
+    padding: 15px;
+}
+.countrySearchCon {
+    position: relative;
+    appearance: none;
+    background-color: hsl(215, 35%, 15%);
+    margin: 20px 0px;
+    padding: 20px;
+    border: 1px solid hsl(215, 24%, 25%);
+    border-radius: 20px;
+}
+.countrySearchCon label {
+    font-weight: bold;
+    color: #c0c0c0;
+}
+#country {
+    background-color: hsl(215, 35%, 25%);
+    width: 100%;
+    height: 60px;
+    margin: 10px 0px;
+    padding: 14px 16px;
+    color: #FFFFFF;
+    border: 1px solid hsl(215, 24%, 30%);
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    transition: 0.3s;
+}
+#country:focus {
+    border-color: #0D9488;
+    box-shadow: 0 0 0 3px rgba(13, 148, 136, 0.2);
+}
+#country option {
+    background-color: #1D2A3C;
+    color: #FFFFFF;
+    padding: 10px;
+}
+#submit {
+    width: 100%;
+    height: 60px;
+    border-radius: 15px;
+    background-color: hsl(175, 84%, 35%);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+}
+.overview {
+    margin-top: 30px;
+}
+.overview h2 {
+    margin-bottom: 15px;
+}
+.overviewCon {
+    background-color: hsl(215, 35%, 15%);
+    padding: 25px;
+    border-radius: 15px;
+    border: 1px solid hsl(215, 24%, 25%);
+}
+.overviewCon h1 {
+    color: white;
+    margin-bottom: 5px;
+}
+.overviewCon p {
+    color: #c0c0c0;
+    margin-bottom: 25px;
+}
+.infoCards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+.infoCard {
+    background-color: hsl(215, 35%, 20%);
+    padding: 15px;
+    border-radius: 10px;
+}
+.infoCard span {
+    color: #11c7b8;
+    font-size: 12px;
+    font-weight: bold;
+}
+.infoCard h3 {
+    font-size: 16px;
+    margin-top: 8px;
+}
